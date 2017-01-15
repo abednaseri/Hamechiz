@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GymVC.swift
 //  Hamechiz
 //
 //  Created by Abed on 13/01/2017.
@@ -8,15 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GymVC: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+
     }
 
     
+    
 
-
+   
 }
-

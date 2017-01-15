@@ -14,6 +14,8 @@
 		B1CF95FC1E28F5E500685D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CF95FB1E28F5E500685D41 /* Assets.xcassets */; };
 		B1CF95FF1E28F5E500685D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CF95FD1E28F5E500685D41 /* LaunchScreen.storyboard */; };
 		B1CF960A1E28F5E500685D41 /* HamechizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF96091E28F5E500685D41 /* HamechizTests.swift */; };
+		B1CF96181E28FD4600685D41 /* GymVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF96171E28FD4600685D41 /* GymVC.swift */; };
+		B1CF961A1E29019A00685D41 /* WorkoutDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF96191E29019A00685D41 /* WorkoutDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		B1CF96051E28F5E500685D41 /* HamechizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamechizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CF96091E28F5E500685D41 /* HamechizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamechizTests.swift; sourceTree = "<group>"; };
 		B1CF960B1E28F5E500685D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1CF96171E28FD4600685D41 /* GymVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymVC.swift; sourceTree = "<group>"; };
+		B1CF96191E29019A00685D41 /* WorkoutDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				B1CF95F11E28F5E500685D41 /* AppDelegate.swift */,
-				B1CF95F31E28F5E500685D41 /* ViewController.swift */,
+				B1CF96161E28FCFB00685D41 /* Model */,
+				B1CF96151E28FCF100685D41 /* Controller */,
+				B1CF96141E28FCEA00685D41 /* View */,
 				B1CF95F51E28F5E500685D41 /* Main.storyboard */,
-				B1CF95FB1E28F5E500685D41 /* Assets.xcassets */,
 				B1CF95FD1E28F5E500685D41 /* LaunchScreen.storyboard */,
+				B1CF95FB1E28F5E500685D41 /* Assets.xcassets */,
 				B1CF96001E28F5E500685D41 /* Info.plist */,
 				B1CF95F81E28F5E500685D41 /* Hamechiz.xcdatamodeld */,
 			);
@@ -97,6 +103,38 @@
 				B1CF960B1E28F5E500685D41 /* Info.plist */,
 			);
 			path = HamechizTests;
+			sourceTree = "<group>";
+		};
+		B1CF96141E28FCEA00685D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B1CF96151E28FCF100685D41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF961B1E2901A500685D41 /* MyGym */,
+				B1CF95F31E28F5E500685D41 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B1CF96161E28FCFB00685D41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B1CF961B1E2901A500685D41 /* MyGym */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF96171E28FD4600685D41 /* GymVC.swift */,
+				B1CF96191E29019A00685D41 /* WorkoutDetailsVC.swift */,
+			);
+			name = MyGym;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1CF96181E28FD4600685D41 /* GymVC.swift in Sources */,
 				B1CF95F41E28F5E500685D41 /* ViewController.swift in Sources */,
+				B1CF961A1E29019A00685D41 /* WorkoutDetailsVC.swift in Sources */,
 				B1CF95F21E28F5E500685D41 /* AppDelegate.swift in Sources */,
 				B1CF95FA1E28F5E500685D41 /* Hamechiz.xcdatamodeld in Sources */,
 			);
