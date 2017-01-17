@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1C964E81E2E038A00693AB1 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C964E71E2E038A00693AB1 /* ActivityCell.swift */; };
+		B1C964EC1E2E274100693AB1 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C964EB1E2E274100693AB1 /* MaterialView.swift */; };
 		B1CF95F21E28F5E500685D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF95F11E28F5E500685D41 /* AppDelegate.swift */; };
 		B1CF95F41E28F5E500685D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF95F31E28F5E500685D41 /* ViewController.swift */; };
 		B1CF95F71E28F5E500685D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CF95F51E28F5E500685D41 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1C964E71E2E038A00693AB1 /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		B1C964EB1E2E274100693AB1 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		B1CF95EE1E28F5E500685D41 /* Hamechiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamechiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CF95F11E28F5E500685D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1CF95F31E28F5E500685D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,8 +89,8 @@
 			children = (
 				B1CF95F11E28F5E500685D41 /* AppDelegate.swift */,
 				B1CF96161E28FCFB00685D41 /* Model */,
-				B1CF96151E28FCF100685D41 /* Controller */,
 				B1CF96141E28FCEA00685D41 /* View */,
+				B1CF96151E28FCF100685D41 /* Controller */,
 				B1CF95F51E28F5E500685D41 /* Main.storyboard */,
 				B1CF95FD1E28F5E500685D41 /* LaunchScreen.storyboard */,
 				B1CF95FB1E28F5E500685D41 /* Assets.xcassets */,
@@ -108,6 +112,8 @@
 		B1CF96141E28FCEA00685D41 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B1C964E71E2E038A00693AB1 /* ActivityCell.swift */,
+				B1C964EB1E2E274100693AB1 /* MaterialView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -244,8 +250,10 @@
 			files = (
 				B1CF96181E28FD4600685D41 /* GymVC.swift in Sources */,
 				B1CF95F41E28F5E500685D41 /* ViewController.swift in Sources */,
+				B1C964E81E2E038A00693AB1 /* ActivityCell.swift in Sources */,
 				B1CF961A1E29019A00685D41 /* WorkoutDetailsVC.swift in Sources */,
 				B1CF95F21E28F5E500685D41 /* AppDelegate.swift in Sources */,
+				B1C964EC1E2E274100693AB1 /* MaterialView.swift in Sources */,
 				B1CF95FA1E28F5E500685D41 /* Hamechiz.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +464,7 @@
 				B1CF96101E28F5E500685D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1CF96111E28F5E500685D41 /* Build configuration list for PBXNativeTarget "HamechizTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				B1CF96131E28F5E500685D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
